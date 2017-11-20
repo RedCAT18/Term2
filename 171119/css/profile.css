@@ -1,0 +1,82 @@
+.profile__background {
+    background: url('../assets/background.jpg');
+    background-size: cover;
+}
+
+.mypage {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mypage__top {
+    width: 100%;
+}
+
+.mypage__close-icon > i {
+    margin: 15px;
+    color: #fff;
+    font-weight: 100;
+    text-shadow: 0 0 2px #898989;
+}
+
+.mypage__bottom {
+    padding: 20px 0;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mypage__avatar > img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.mypage__bottom > .mypage__name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mypage__bottom > .mypage__name > h3 {
+    font-size: 1.3em;
+}
+
+.mypage__bottom > .mypage__menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.mypage__item {
+    text-align:center;
+    padding: 10px 0;
+    margin: 10px 20px;
+}
+
+.mypage__item-icon {
+    padding: 15px;
+    border-radius: 50%;
+    background: #f2f2f2;
+    font-size: 24px;
+    width: 65px;
+    height: 65px;
+    color: #543f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mypage__item > .mypage__item-title {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #543f3f;
+}

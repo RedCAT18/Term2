@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Example</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--화면 헤더-->
+    <header class="header__box">
+        <div class="header__status">
+            <div class="header__column">
+                <span class="header__text">SIM없음</span>
+                <i class="fa fa-wifi header__text"></i>
+            </div>
+            <div class="header__column">
+                <span class="header__text">오전 7:25</span>
+            </div>
+            <div class="header__column">
+                <i class="fa fa-battery-quarter fa-lg header__text"></i>
+                <i class="fa fa-bolt header__text"></i>
+            </div>
+        </div>
+        <div class="header__admin">
+            <div class="header__column">
+                <span class="header__text header__text-opacity--low">관리</span>
+            </div>
+            <div class="header__column">
+                <span class="header__text header__text-bold">친구 <span class="header__text-emphasis">58</span></span>
+            </div>
+            <div class="header__column">
+                <i class="fa fa-cog fa-2x header__text header__text-opacity--low"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="friends">
+        <div class="search-bar">
+            <input type="text" class="search-bar__input" placeholder="&#xf002; 친구, 플러스친구 검색">
+        </div>
+
+        <!--내 프로필(상단)-->
+        <section class="friends__section">
+            <header class="friends__section-title">
+                <h6>내 프로필</h6>
+            </header>
+            <div class="friends__section-rows">
+                <div class="friends__section-row underline">
+                    <img src="assets/avatar.jpg" alt="user avatar">
+                    <span class="friends__section-name">판다2</span>
+                </div>
+                <div class="friends__section-row">
+                    <img class="small-image" src="assets/info_512pxGREY.png" alt="icon">
+                    <span class="friends__section-name">친구이름표시문제 안내</span>
+                </div>
+            </div>
+        </section>
+
+        <!--친구 리스트(하단)-->
+        <section class="friends__section">
+            <header class="friends__section-title">
+                <h6>친구</h6>
+            </header>
+            <div class="friends__section-rows">
+                <div class="friends__section-row underline">
+                    <div class="friends__column">
+                        <img src="assets/avatar.jpg" alt="user avatar">
+                        <span class="friends__section-name">친구1</span>
+                    </div>
+                    <span class="friends__section_tagline"></span>
+                </div>
+                <div class="friends__section-row underline">
+                    <div class="friends__column">
+                        <img src="assets/avatar.jpg" alt="user avatar">
+                        <span class="friends__section-name">친구2</span>
+                    </div>
+                    <span class="friends__section_tagline"></span>
+                </div>
+            </div>
+            <div class="friends__section-row friends__section-hasTag underline">
+                <div class="friends__column">
+                    <img src="assets/avatar.jpg" alt="user avatar">
+                    <span class="friends__section-name">친구3</span>
+                </div>
+                <span class="friends__section-tagline">아무말</span>
+            </div>
+            <div class="friends__section-row friends__section-hasTag underline">
+                <div class="friends__column">
+                    <img src="assets/avatar.jpg" alt="user avatar">
+                    <span class="friends__section-name">친구4</span>
+                </div>
+                <span class="friends__section-tagline">대잔치</span>
+            </div>
+            <div class="friends__section-row friends__section-hasTag underline">
+                <div class="friends__column">
+                    <img src="assets/avatar.jpg" alt="user avatar">
+                    <span class="friends__section-name">친구5</span>
+                </div>
+                <span class="friends__section-tagline">그런데 말입니다..</span>
+            </div>
+        </section>
+    </div>
+
+    <!--하단 메뉴-->
+    <nav class="tab-bar">
+        <a class="tab-bar__tab tab-bar__tab-active"><i class="fa fa-user fa-2x tab-bar__icon"></i><span class="tab-bar__title">친구</span></a>
+        <a class="tab-bar__tab"><i class="fa fa-comment fa-2x tab-bar__icon"></i><span class="tab-bar__title">채팅</span></a>
+        <a class="tab-bar__tab"><i class="fa fa-search fa-2x tab-bar__icon"></i><span class="tab-bar__title">친구찾기</span></a>
+        <a class="tab-bar__tab"><i class="fa fa-ellipsis-h fa-2x tab-bar__icon"></i><span class="tab-bar__title">더보기</span></a>
+    </nav>
+</body>
+</html>
